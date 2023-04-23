@@ -1,5 +1,5 @@
 VERSION	= 1.77.3
-IMAGE	= refunc/refunc-openvscode-server
+IMAGE	= arvintian/refunc-openvscode-server
 ARCHITECTURES = amd64
 IMAGE_NAMES += $(foreach arch, $(ARCHITECTURES), $(IMAGE)-$(arch):$(VERSION))
 LATEST_IMAGE_NAMES += $(foreach arch, $(ARCHITECTURES), $(IMAGE)-$(arch):latest)
